@@ -18,7 +18,7 @@ target_link_libraries(executable dllB)
 target_link_libraries(executable testrunner)
 
 # group them together in a single folder inside IDEs
-set_target_properties(testrunner PROPERTIES FOLDER executable)
-set_target_properties(dllA PROPERTIES FOLDER executable)
-set_target_properties(dllB PROPERTIES FOLDER executable)
+set_target_properties(testrunner PROPERTIES FOLDER testrunner)
+set_target_properties(dllA PROPERTIES FOLDER dllA)
+set_target_properties(dllB PROPERTIES FOLDER dllB)
 set_target_properties(executable PROPERTIES FOLDER executable)
