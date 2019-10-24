@@ -2,8 +2,8 @@
 #include "doctest.h"
 #include <cstdio>
 
-TEST_CASE("executable") {
-    printf("I am a test from the executable!\n");
+TEST_CASE("testexecutable") {
+    printf("I am a test from the testexecutable!\n");
 }
 
 DOCTEST_SYMBOL_IMPORT void from_dllA();
